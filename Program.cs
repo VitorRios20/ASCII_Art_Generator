@@ -10,8 +10,9 @@ namespace ASCII_Art_Generator
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hi! welcome to the ASCII Art Generator :3"); 
             Console.WriteLine("Type the image path:");
-            tring path = Console.ReadLine();
+            String path = Console.ReadLine();
 
             Console.WriteLine("Type the output path:");
             String outputPath = Console.ReadLine();
